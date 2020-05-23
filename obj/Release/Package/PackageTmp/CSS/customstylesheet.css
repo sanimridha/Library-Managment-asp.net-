@@ -1,0 +1,45 @@
+﻿.footerlinks{
+    color: black;
+    text-decoration: none !important;
+}
+    .footerlinks:hover {
+        color: #19d1e6;
+    }
+
+.header-link {
+    color: #bbb !important;
+}
+
+.header-link:hover {
+    color: #fff !important;
+}
+
+#footer1 {
+    background: #C99FF1;
+}
+
+#footer2 {
+    background: #dfbffe;
+}
+/*/*#19d1e6*/
+/*#e3f2fd*/
+
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    animation-name: slide;
+    animation: 4s;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(-100%)
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
